@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "tributohub-mockup",
+      "description": "Mockup of the TributoHub application on a laptop screen.",
+      "imageUrl": "https://i.imgur.com/Mpf1qSp.png",
+      "imageHint": "application mockup"
+    },
+    {
+      "id": "love-budget-mockup",
+      "description": "Mockup of the Love Budget application on a laptop screen.",
+      "imageUrl": "https://i.imgur.com/KqqGEAF.png",
+      "imageHint": "finance app"
+    },
+    {
+      "id": "franzoi-mockup",
+      "description": "Tela de login do sistema customizado para o escritório de advocacia Franzoi.",
+      "imageUrl": "https://i.imgur.com/Eyvx3Dq.png",
+      "imageHint": "login screen"
+    }
+  ]
+}
