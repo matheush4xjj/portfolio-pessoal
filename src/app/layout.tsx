@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
   title: 'Matheus De Carvalho - Portfólio',
-  description: 'Especialista em Marketing Digital & Social Media',
+  description: 'Especialista em Micro-SaaS No-Code, automação com Firebase e Supabase. Expertise em marketing digital, Facebook Ads, funis de venda, infoprodutos e design para social media com Canva e CapCut.',
 };
 
 export default function RootLayout({

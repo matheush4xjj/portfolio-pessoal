@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { Menu, Mountain } from "lucide-react";
+import { Menu, Mountain, Sparkles } from "lucide-react";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -41,6 +41,10 @@ export function Header() {
           <Link href="#services" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
             Serviços
           </Link>
+           <Link href="#ai" className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <Sparkles className="h-4 w-4 text-primary/80" />
+            IA
+          </Link>
           <Link href="#hiring" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
             Contato
           </Link>
@@ -68,6 +72,10 @@ export function Header() {
                   </Link>
                   <Link href="#services" onClick={() => setIsMobileMenuOpen(false)} className="text-muted-foreground hover:text-foreground transition-colors">
                     Serviços
+                  </Link>
+                   <Link href="#ai" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                     <Sparkles className="h-5 w-5 text-primary/80" />
+                    IA
                   </Link>
                   <Link href="#hiring" onClick={() => setIsMobileMenuOpen(false)} className="text-muted-foreground hover:text-foreground transition-colors">
                     Contato

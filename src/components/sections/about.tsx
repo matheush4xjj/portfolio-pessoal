@@ -1,6 +1,6 @@
 import { FadeIn } from "@/components/fade-in";
 import { Card } from "@/components/ui/card";
-import { Database, Code, Palette, Film, Target, BrainCircuit, ShoppingCart, Filter } from "lucide-react";
+import { Database, Code, Palette, Film, Target, BrainCircuit, ShoppingCart, Filter, Sparkles } from "lucide-react";
 
 const skills = [
   {
@@ -10,6 +10,13 @@ const skills = [
       { name: "Supabase", icon: Database },
       { name: "Lovable", icon: Code },
       { name: "Bolt", icon: Code },
+    ],
+  },
+    {
+    category: "Inteligência Artificial",
+    tools: [
+      { name: "Veo 3", icon: Sparkles },
+      { name: "Sora 2", icon: Sparkles },
     ],
   },
   {
